@@ -4,13 +4,16 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "test": "node --import tsx/esm src/index.ts"
+    "test": "node --import tsx/esm src/index.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tsx": "^4.16.2"
+    "@types/got": "^9.6.12",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
   },
   "dependencies": {
     "got": "^9.6.0"
